@@ -1,0 +1,261 @@
+body {
+    margin: 0 auto;
+    background-color: gainsboro;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto; /* centers the div */
+    box-shadow: 4px 2px 10px rgba(0,0,0,0.4);
+}
+
+.logo {
+    float: left;
+    padding: 15px;
+}
+
+.search {
+    float: right;
+    padding: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.main-menu {
+    background-color: #d2232a;
+}
+
+.main-menu > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.main-menu > ul > li {
+    display: inline-block;
+}
+
+.main-menu > ul > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+}
+
+.main-menu > ul > li > a:hover {
+    background-color: black;
+}
+
+.drop {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+.drop > li > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-size: small;
+    background-color: black;
+}
+
+.drop > li > a:hover {
+    background-color: crimson;
+}
+
+.main-menu > ul > li:hover .drop {
+    display: block;
+}
+
+/* banner */
+.banner {
+    width: 1000px;
+    height: 415px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* content holder */
+.content-holder {
+    background-color: black;
+}
+
+.content {
+    width: 700px;
+    height: auto;
+    padding: 25px;
+    background-color: white;
+    float: left;
+}
+
+.content h1 {
+    font-size: 1.5rem;
+}
+
+.content p {
+    font-size: 1rem;
+}
+
+.sidebar {
+    float: left;
+    padding: 25px;
+}
+
+.sidebar h3 {
+    color: crimson;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+.sidebar p {
+    color: white;
+    margin: 0;
+}
+
+div.ryan {
+    margin-top: 3rem;
+}
+
+div.extra_contact_details {
+    margin-top: 3rem;
+}
+
+div.extra_contact_details a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.sidebar ul > li > a {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* footer section */
+.footer-main {
+    background-color: black;
+    color: white;
+    width: 950px;
+    padding: 25px;
+}
+
+.footer-box {
+    width: 237.5px;
+    height: auto;
+    float: left;
+}
+
+.footer-box  h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: normal;
+}
+
+.footer-box > ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-box > ul > li > a {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+div.logo2 {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+div.logo2 img {
+    width: 100%;
+}
+
+/* copyright */
+
+.copy {
+    background-color: #d2232a;;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.copy p {
+    margin-top: 0;
+}
+
+/* about page */
+.content img {
+    max-width: 100%;
+}
+
+/* products page */
+.product {
+    width: 211.33px;
+    height: auto;
+    float: left;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.product-caption p {
+    font-weight: bold;
+}
+
+.product-caption del {
+    color: red;
+}
+
+.product-caption ins {
+    color: green;
+}
+
+.product a {
+    background-color: teal;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    padding: 8px;
+    text-align: center;
+}
+
+.product a:hover {
+    background-color: yellowgreen;
+}
+
+/* Contact Page */
+.banner iframe {
+    width: 100%;
+    height: 415px;
+}
